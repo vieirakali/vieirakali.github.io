@@ -14,7 +14,6 @@ layout: default
             <p class="intro__summary">{{ page.summary }}</p>
           {%- endif -%}
         </div>
-
         {%- if page.cover -%}
         <div class="intro__media">
           <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title }}">
