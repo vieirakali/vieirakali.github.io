@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<article class="project">
+  <header class="intro">
+    <div class="container intro__container{% if page.cover %} has-cover{% endif %}">
+      <div class="intro__top">
+        <div class="intro__text">
+          {%- if page.company -%}
+            <p class="project__company">{{ page.company }}</p>
+          {%- endif -%}
+          <h1 class="intro__title">{{ page.title | escape }}</h1>
+          {%- if page.summary -%}
+            <p class="intro__summary">{{ page.summary }}</p>
+          {%- endif -%}
+        </div>
+
+        {%- if page.cover -%}
+        <div class="intro__media">
+          <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title }}">
+        </div>
+        {%- endif -%}
+      </div>
+
+      {%- if page.role or page.timeline or page.responsibilities -%}
+      <dl class="meta">
+        {%- if page.role -%}
+          <div><dt>Role</dt><dd>{{ page.role }}</dd></div>
+        {%- endif -%}
+        {%- if page.timeline -%}
+          <div><dt>Timeline</dt><dd>{{ page.timeline }}</dd></div>
+        {%- endif -%}
+        {%- if page.responsibilities -%}
+          <div>
+            <dt>Responsibilities</dt>
+            <dd>
+              <ul>
+                {%- for item in page.responsibilities -%}<li>{{ item }}</li>{%- endfor -%}
+              </ul>
+            </dd>
+          </div>
+        {%- endif -%}
+      </dl>
+      {%- endif -%}
+    </div>
+  </header>
+
+  <div class="container project__body">
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    {%- if page.links -%}
+    <ul class="project__links">
+      {%- for link in page.links -%}
+        <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+
+    <p class="back"><a href="{{ '/projects/' | relative_url }}">← Projects</a></p>
+  </div>
+</article>

@@ -1,0 +1,81 @@
+summary: >-
+  Senior Product Designer with 15 years of experience across Product Design and
+  Front-end, combining strong UI, systems thinking and technical fluency.
+
+jobs:
+  - period: "Aug. 2025 – Present"
+    company: Act Digital/Globo
+    title: Senior Product Designer
+    location: Remote – Rio de Janeiro, RJ
+    points:
+    - Design and refinement of end-to-end UI for a mobile app on iOS and Android, focusing on usability, visual quality, and consistent experiences.
+    - Conducted end-to-end feature design from discovery to handoff, using research, benchmarks, interaction design, prototypes, and in-app validation to inform decisions.
+    - Contributed to the product Design System through project themes, core components, variables, and scalable Figma libraries.
+    - Created interactive prototypes, motion explorations, and handoff documentation in Figma to align design decisions with engineering implementation.
+    - Integrated AI tools — including Claude, Perplexity, Figma AI, and Figma Make into research, ideation, prototyping, UX writing, and design-to-development workflows, accelerating iteration, exploring design directions, and generating microcopy aligned with the product’s tone of voice.
+    skills: Figma · User Experience · User Interface Design · Design Systems · Component Libraries · Interaction Design · Mobile Design · Accessibility · Prototyping · UX Writing · Developer Handoff · AI-assisted Design
+
+  - period: "Aug. 2024 – Apr. 2025"
+    company: HURB
+    title: Senior Product Designer
+    location: Hybrid – Rio de Janeiro, RJ
+    points:
+      - Led the implementation of the Design System, optimizing design processes, standardizing UI components, and pattern libraries to ensure brand consistency across web and mobile platforms.
+      - Collaborated with cross-functional teams to create and document components, define user workflows, and prioritize new features in an Agile environment.
+      - Conducted user research and usability testing to validate design decisions and improve user engagement.
+      - Enhanced the architecture of Figma libraries, improving variable organization and increasing adoption within the Design team.
+      - Created high-fidelity prototypes in Figma, streamlining the validation of complex flows, improving communication between design and development, and accelerating the handoff.
+    skills: Figma · User Experience · User Interface Design · Design System · Interaction Design
+
+  - period: "Oct. 2022 – Nov. 2023"
+    company: Aveva
+    title: Senior Product Designer
+    location: Hybrid – Rio de Janeiro, RJ
+    points:
+      - Designed intuitive interfaces for industrial software, optimizing complex dashboards and data visualizations for engineer and operator workflows.
+      - Established UX guidelines and pattern libraries, improving design consistency across AVEVA’s suite of applications.
+      - Collaborated with Engineers, Data Scientists, and Product Managers to ensure responsive, accessible design.
+      - Led stakeholder workshops using design thinking methods to define product requirements and roadmap priorities.
+    skills: Figma · User Experience · User Interface Design · Product Concept · Artificial Intelligence · Product Design · Interaction Design · Prototyping · Design Thinking
+
+  - period: "Jul. 2021 – Sep. 2022"
+    company: Dell Technologies
+    title: Design Technologist
+    location: Remote – Texas, USA
+    points:
+      - Developed and improved solutions for the Dell site using Adobe Experience Manager and Vue.js.
+      - Collaborated with the Creative-UX Team to enhance User Experience and Design Aesthetics.
+      - Served as a bridge between UX design and Engineering teams, translating creative concepts into functional prototypes and production code.
+      - Contributed to Dell’s Design System by creating UI components and documenting style guidelines in Adobe XD.
+    skills: Adobe XD · Figma · Lottie · Vue.js · UI Design · Git · GreenSock Animation Platform (GSAP) · JavaScript · Interaction Design · User Experience · Design System · Adobe Experience Manager (AEM)
+
+  - period: "Dec. 2015 – May 2021"
+    company: Stone.co (Mundipagg/Pagar.me)
+    title: Lead UI Engineer | Front-End Developer
+    location: On site – Rio de Janeiro
+    points:
+      - Migrated legacy codebases to Angular 2+ with TypeScript, ensuring improved performance and maintainability.
+      - Played a key role in the full transition of products from Angular to Vue.js, enhancing consistency across platforms.
+      - Built and maintained Emerald, a Design System aimed at unifying product interfaces and accelerating development.
+      - Developed framework-agnostic components in HTML, CSS, and JavaScript, later adapted into Vue.js, React, and Angular by other teams.
+      - Enabled reusable UI testing and component showcases using the Design System across multiple applications.
+      - Supported the adoption of the Design System across all Mundipagg (now Pagar.me) products, including the main website.
+      - Focused on the Design System’s continuous improvement, comprehensive documentation, and expansion across Stone.Co Group.
+    skills: Product Design · Front End Design · Design System · CSS animations · JavaScript · Interaction Design · Sketch · Zeplin · Figma · Performance Metrics · AngularJS · Webpack · CSS Flexbox · Git · Vue.js · Nuxt.js · Bootstrap · React
+
+education:
+  - period: "2022"
+    school: Miami Ad School Brasil
+    program: Creative + Strategic Design
+    location: Remote – Rio de Janeiro
+    note: Training course
+  - period: "2020 – 2021"
+    school: Mergo Design School
+    program: Product Design/Research
+    location: Remote – Rio de Janeiro
+    note: Processes for product development, from the business vision to validation. How qualitative and quantitative research methods can help in the processes of discovering and exploring a problem, and in the process of validating a digital product solution.
+  - period: "2009 – 2012"
+    school: Universidade Unigranrio
+    program: Information Systems
+    location: Duque de Caxias, RJ
+    note: Bachelor’s degree

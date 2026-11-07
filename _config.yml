@@ -1,0 +1,27 @@
+title: CARLA VIEIRA
+email: vieirasrcarla@gmail.com
+# phone: "+55 (21) 93618-6181"
+linkedin_url: https://www.linkedin.com/in/carlavieira/
+github_username: vieirakali
+description: >-
+  Senior Product Designer based in Rio de Janeiro. Product design,
+  design systems and design-to-engineering.
+  
+baseurl: ""
+url: "https://vieirakali.github.io/"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

@@ -1,0 +1,29 @@
+{%- capture videoPath -%}{{ page.title | slugify }}/{{ include.name }}{%- endcapture -%}
+{%- if include.caption -%}
+<figure>
+    <video
+        {% if include.width %}width="{{ include.width }}"{% endif %}
+        {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
+        {% if include.controls != false %}controls{% endif %}
+        {% if include.autoplay %}autoplay{% endif %}
+        {% if include.loop %}loop{% endif %}
+        {% if include.muted %}muted{% endif %}
+        playsinline
+    >
+        <source src="{{ '/assets/videos/' | append: videoPath | relative_url }}" type="{{ include.type | default: 'video/mp4' }}">
+    </video>
+    <figcaption>{{ include.caption }}</figcaption>
+</figure>
+{%- else -%}
+<video
+    {% if include.width %}width="{{ include.width }}"{% endif %}
+    {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
+    {% if include.controls != false %}controls{% endif %}
+    {% if include.autoplay %}autoplay{% endif %}
+    {% if include.loop %}loop{% endif %}
+    {% if include.muted %}muted{% endif %}
+    playsinline
+>
+    <source src="{{ '/assets/videos/' | append: videoPath | relative_url }}" type="{{ include.type | default: 'video/mp4' }}">
+</video>
+{%- endif -%}

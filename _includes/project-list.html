@@ -1,0 +1,15 @@
+{%- assign projects = site.projects | sort: "order" -%}
+<ul class="work">
+  {%- for project in projects -%}
+  <li class="work__item">
+    <a class="work__link" href="{{ project.url | relative_url }}">
+      <span class="work__company">{{ project.company }}</span>
+      <span class="work__body">
+        <span class="work__title">{{ project.title | escape }}</span>
+        {%- if project.summary -%}<span class="work__summary">{{ project.summary }}</span>{%- endif -%}
+      </span>
+      <span class="work__year">{{ project.year }}</span>
+    </a>
+  </li>
+  {%- endfor -%}
+</ul>

@@ -1,0 +1,8 @@
+{%- assign path = page.url -%}
+<header class="masthead container">
+  <a class="masthead__logo" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+  <nav class="masthead__nav" aria-label="Main">
+    <a href="{{ '/projects/' | relative_url }}"{% if path contains '/projects' %} aria-current="page"{% endif %}>Projects</a>
+    <a href="{{ '/experience/' | relative_url }}"{% if path contains '/experience' %} aria-current="page"{% endif %}>Experience</a>
+  </nav>
+</header>
